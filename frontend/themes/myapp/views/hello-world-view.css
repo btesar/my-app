@@ -1,0 +1,70 @@
+.hello-world-view {
+  background-color: var(--lumo-contrast-10pct);
+  box-sizing: border-box;
+  display: block;
+  font-size: var(--lumo-font-size-m);
+  height: 100%;
+  overflow: auto;
+  padding: var(--lumo-space-m) var(--lumo-space-l);
+}
+
+.hello-world-view vaadin-board {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+/* Wrapper */
+.hello-world-view .wrapper {
+  display: flex;
+  padding: var(--lumo-space-s);
+}
+
+/* Card */
+.hello-world-view .card {
+  align-items: baseline;
+  background-color: var(--lumo-base-color);
+  border-radius: var(--lumo-border-radius);
+  box-shadow: var(--lumo-box-shadow-xs);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+}
+
+.hello-world-view .card h2 {
+  margin-bottom: 0;
+  margin-top: var(--lumo-space-m);
+}
+
+.hello-world-view .card h3 {
+  margin-bottom: var(--lumo-space-xs);
+  margin-left: var(--lumo-space-m);
+  margin-top: var(--lumo-space-m);
+}
+
+/* Text colors */
+.hello-world-view .error-text {
+  color: var(--lumo-error-text-color);
+}
+
+.hello-world-view .primary-text {
+  color: var(--lumo-primary-text-color);
+}
+
+.hello-world-view .secondary-text {
+  color: var(--lumo-secondary-text-color);
+}
+
+.hello-world-view .success-text {
+  color: var(--lumo-success-text-color);
+}
+
+/* Charts */
+.hello-world-view vaadin-chart {
+  padding-top: var(--lumo-space-s);
+}
+
+/* Grid */
+.hello-world-view vaadin-grid {
+  height: 300px;
+}
