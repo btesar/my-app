@@ -25,8 +25,8 @@ import com.vaadin.flow.router.PageTitle;
 import com.example.application.views.MainLayout;
 import com.vaadin.flow.router.RouteAlias;
 
-@PageTitle("Hello World")
-@Route(value = "hello", layout = MainLayout.class)
+@PageTitle("Siemens Gate Mechanism")
+@Route(value = "s80", layout = MainLayout.class)
 @RouteAlias(value = "", layout = MainLayout.class)
 public class HelloWorldView extends Div {
 
